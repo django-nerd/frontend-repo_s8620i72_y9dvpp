@@ -6,6 +6,21 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        olive: {
+          50: '#fafaf6',
+          100: '#f3f5ea',
+          200: '#e6ead3',
+          300: '#d3dcb5',
+          400: '#b8c58b',
+          500: '#9daa62',
+          600: '#7f8c45',
+          700: '#606b34',
+          800: '#414b24',
+          900: '#2b3318',
+          950: '#171c0d',
+        },
+      },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
         geist: ['Geist', 'system-ui', 'sans-serif'],
